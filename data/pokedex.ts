@@ -7725,7 +7725,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 48,
 		eggGroups: ["Monster", "Dragon"],
 		otherFormes: ["Garchomp-Mega", "Garchomp-Armira"],
-		formeOrder: ["Garchomp", "Garchomp-Mega", "Garchomp-Armira"],
+		formeOrder: ["Garchomp", "Garchomp-Armira", "Garchomp-Mega"],
 	},
 	garchompmega: {
 		num: 445,
