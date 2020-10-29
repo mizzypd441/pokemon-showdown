@@ -4580,8 +4580,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pupitar",
 		evoLevel: 55,
 		eggGroups: ["Monster"],
-		otherFormes: ["Tyranitar-Mega"],
-		formeOrder: ["Tyranitar", "Tyranitar-Mega"],
+		otherFormes: ["Tyranitar-Mega", "Tyranitar-Armira"],
+		formeOrder: ["Tyranitar", "Tyranitar-Mega, "Tyranitar-Armira"],
 	},
 	tyranitarmega: {
 		num: 248,
@@ -4599,7 +4599,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	tyranitararmira: {
 		num: 248,
-		name: "Tyranitar",
+		name: "Tyranitar-Armira",
 		types: ["Rock", "Fire"],
 		baseStats: {hp: 100, atk: 125, def: 110, spa: 95, spd: 100, spe: 70},
 		abilities: {0: "Drought"},
