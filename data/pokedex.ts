@@ -4581,7 +4581,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 55,
 		eggGroups: ["Monster"],
 		otherFormes: ["Tyranitar-Mega", "Tyranitar-Armira"],
-		formeOrder: ["Tyranitar", "Tyranitar-Mega, "Tyranitar-Armira"],
+		formeOrder: ["Tyranitar", "Tyranitar-Mega"],
 	},
 	tyranitarmega: {
 		num: 248,
@@ -4596,7 +4596,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster"],
 		requiredItem: "Tyranitarite",
-	},
+			},
 	tyranitararmira: {
 		num: 248,
 		name: "Tyranitar-Armira",
@@ -4605,11 +4605,11 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		abilities: {0: "Drought"},
 		heightm: 2,
 		weightkg: 202,
-		color: "Red",
+		color: "Green",
 		prevo: "Pupitar",
 		evoLevel: 55,
 		eggGroups: ["Monster"],
-	},
+	},	},
 	lugia: {
 		num: 249,
 		name: "Lugia",
