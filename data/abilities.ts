@@ -515,6 +515,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 238,
 	},
+	cryoshell: {
+        desc: "If Rain or Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its HP does not get restored.",
+        shortDesc: "If Rain/Hail is active, this Pokemon heals 1/16 of its max HP each turn.",
+        onWeather(target, source, effect) {
+            if (target.hasItem('utilityumbrella')) return;
+            if (effect.id === 'raindance' || effect.id === 'hail') {
+                this.heal(target.baseMaxhp / 16);
+            }
+        },
+        name: "Cryo Shell",
+        rating: 1.5,
+        num: 10015,
+    },
 	curiousmedicine: {
 		onStart(pokemon) {
 			for (const ally of pokemon.side.active) {

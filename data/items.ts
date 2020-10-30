@@ -2758,6 +2758,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 206,
 		gen: 3,
 	},
+	laprasite: {
+		name: "Laprasite",
+		spritenum: 576,
+		megaStone: "Lapras-Mega",
+		megaEvolves: "Lapras",
+		itemUser: ["Lapras"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1414,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	latiasite: {
 		name: "Latiasite",
 		spritenum: 629,

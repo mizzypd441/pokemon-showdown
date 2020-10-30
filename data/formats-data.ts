@@ -1869,6 +1869,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	tyranitararmira: {
+		tier: "OU",
+	},
 	lugia: {
 		randomBattleMoves: ["aeroblast", "calmmind", "earthquake", "psyshock", "roost", "substitute", "toxic"],
 		randomBattleLevel: 72,
@@ -2983,6 +2986,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	garchompmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	garchomparmira: {
+		tier: "OU",
 	},
 	riolu: {
 		tier: "LC",
