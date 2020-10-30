@@ -2356,6 +2356,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 	},
+	heliolite: {
+		name: "Heliolite",
+		spritenum: 590,
+		megaStone: "Heliolisk-Mega",
+		megaEvolves: "Heliolisk",
+		itemUser: ["Heliolisk"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1412,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	heracronite: {
 		name: "Heracronite",
 		spritenum: 590,
