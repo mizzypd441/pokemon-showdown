@@ -16109,7 +16109,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	pulseon: {
 		num: 906,
 		name: "Pulseon",
-		types: ["Electric", "Fire"],
+		types: ["Electric", "Psychic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 65, atk: 65, def: 60, spa: 130, spd: 95, spe: 110},
 		abilities: {0: "Volt Absorb"},
@@ -16318,7 +16318,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	kingsbisharp: {
 		num: 920,
-		name: "Bisharp-Armira",
+		name: "Kings-Bisharp",
 		types: ["Steel"],
 		baseStats: {hp: 85, atk: 155, def: 155, spa: 40, spd: 40, spe: 80},
 		abilities: {0: "Inner Focus"},
