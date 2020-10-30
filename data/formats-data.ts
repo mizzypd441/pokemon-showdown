@@ -6213,6 +6213,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	kingsbisharp: {
 		tier: "OU",
 	},
+	hippowdonarmira: {
+		tier: "OU",
+	},
+	hippopotasarmira: {
+		tier: "OU",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
