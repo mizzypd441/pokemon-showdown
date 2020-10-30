@@ -4263,6 +4263,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	froakiearmira: {
+		tier: "LC",
+	},
+	frogadierarmira: {
+		tier: "UU",
+	},
+	greninjaarmira: {
+		tier: "OU",
+	},
 	bunnelby: {
 		tier: "LC",
 	},
@@ -6197,6 +6206,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	pineon: {
+		tier: "OU",
+	},
+	kingsbisharp: {
 		tier: "OU",
 	},
 	missingno: {
