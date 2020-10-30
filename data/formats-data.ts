@@ -1911,6 +1911,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sceptilearmira: {
+		tier: "OU",
+	},
 	torchic: {
 		tier: "LC",
 	},
