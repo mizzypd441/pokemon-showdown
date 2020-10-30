@@ -6136,6 +6136,69 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	fureon: {
+		tier: "OU",
+	},
+	obsideon: {
+		tier: "OU",
+	},
+	sootheon: {
+		tier: "OU",
+	},
+	murkeon: {
+		tier: "OU",
+	},
+	mooreon: {
+		tier: "OU",
+	},
+	frosteon: {
+		tier: "OU",
+	},
+	radeon: {
+		tier: "OU",
+	},
+	pulseon: {
+		tier: "OU",
+	},
+	pospheon: {
+		tier: "OU",
+	},
+	staticeon: {
+		tier: "OU",
+	},
+	blizzeon: {
+		tier: "OU",
+	},
+	dynameon: {
+		tier: "OU",
+	},
+	devileon: {
+		tier: "OU",
+	},
+	cindereon: {
+		tier: "OU",
+	},
+	blaneon: {
+		tier: "OU",
+	},
+	aromeon: {
+		tier: "OU",
+	},
+	eclipseon: {
+		tier: "OU",
+	},
+	isycleon: {
+		tier: "OU",
+	},
+	zereon: {
+		tier: "OU",
+	},
+	noctiveon: {
+		tier: "OU",
+	},
+	pineon: {
+		tier: "OU",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
