@@ -6147,6 +6147,24 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		doublesTier: "Illegal",
 	},
+	growlithearmira: {
+		tier: "LC",
+	},
+	arcaninearmira: {
+		tier: "OU",
+	},
+	roggrenrolaarmira: {
+		tier: "OU",
+	},
+	boldorearmira: {
+		tier: "UU",
+	},
+	gigalitharmira: {
+		tier: "UU",
+	},
+	sandridger: {
+		tier: "UU",
+	},
 	fureon: {
 		tier: "OU",
 	},
