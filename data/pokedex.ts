@@ -1453,9 +1453,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.9,
 		weightkg: 155,
 		color: "Blue",
-		prevo: "Growlithe",
+		prevo: "Growlithe-Armira",
 		evoType: "useItem",
-		evoItem: "Water Stone",
+		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
 	},
 	poliwag: {
