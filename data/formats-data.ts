@@ -6160,7 +6160,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	gigalitharmira: {
-		tier: "UU",
+		tier: "OU",
 	},
 	sandridger: {
 		tier: "UU",
